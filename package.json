@@ -1,0 +1,22 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "nodemon --exec jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^22.4.3",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.3",
+    "rewire": "^4.0.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
